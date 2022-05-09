@@ -7,5 +7,5 @@ rust を使ったコンテストの回答をおいていきます
 
 ## 参考
 
-[AtCoder コンテストに Rust で参加するためのガイドブック](https://doc.rust-jp.rs/atcoder-rust-resources/)
+[AtCoder コンテストに Rust で参加するためのガイドブック](https://doc.rust-jp.rs/atcoder-rust-resources/)  
 [rust-lang-ja/atcoder-rust-base](https://doc.rust-jp.rs/atcoder-rust-resources/)
