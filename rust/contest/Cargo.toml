@@ -1,7 +1,7 @@
 # -*- coding:utf-8-unix -*-
 
 [package]
-name = "abc250"
+name = "keketon-rust-contest"
 version = "0.1.0"
 authors = ["keketon <mas08rin10yabko@gmail.com>"]
 edition = "2018"
