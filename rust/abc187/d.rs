@@ -5,20 +5,11 @@ use proconio::input;
 fn main() {
     input! {
         n: usize,
+        voter: [(i64, i64); n],
     }
 
-    let mut voter = Vec::new();
-    let mut score = 0;
-
-    for _ in 0..n {
-        input! {
-            a: i64,
-            b: i64,
-        }
-
-        score -= a;
-        voter.push((a, b));
-    }
+    let mut voter = voter;
+    let mut score: i64 = voter.iter().map(|t| -t.0).sum();
 
     voter.sort_by(|x, y| diff(x).cmp(&diff(y)).reverse());
 
