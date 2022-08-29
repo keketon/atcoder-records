@@ -2,7 +2,7 @@
 
 USAGE="Usage: './arc.sh abc123 a'"
 
-COLOr_INFO="\e[34m"
+COLOR_INFO="\e[34m"
 COLOR_OK="\e[32;1m"
 COLOR_ERR="\e[31m"
 COLOR_OFF="\e[m"
